@@ -1,7 +1,7 @@
 name: Deploy to GitHub Pages
+# Автозапуск отключён: от публикации на GitHub Pages отказались в пользу
+# доработки рабочего сервера mozg.ivanychprofi.ru. Запуск только вручную.
 on:
-  push:
-    branches: [ claude/estimate-calculator-role-cabinets-50uiw6 ]
   workflow_dispatch: {}
 
 permissions:
